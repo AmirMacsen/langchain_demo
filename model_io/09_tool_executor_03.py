@@ -70,6 +70,7 @@ def store_data(standardized_data: List[Dict], persist_dir: str = "./area_code_ve
                                    collection_name="geo_locations", persist_directory=persist_dir)
 
 
+
 # excel_data = read_excel()
 # standardized_data = standard_excel_data(excel_data)
 # store_data(standardized_data)
